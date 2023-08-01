@@ -1,7 +1,14 @@
-- 👋 Hi, I’m @roxeonull
-- 👀 I’m interested in software developer especially web developer
-- 🌱 I’m currently learning laravel and api
-- 📫 How to reach me email me
+from github.profile import ReadMe
+class roxeonull ( ReadMe ) :
+    def __init__ ( self ) :
+        self.username  = "roxeonull"
+        self.location  = "Indonesia"
+        self.discord   = "roxeonull#1628"
+        self.languages = [ "PHP", "Kotlin", "Javascript", "C#", "Java" ]
+    def about ( self ) :
+        print( f"Hi, I'm {self.username}. Contact me at {self.discord}" )
+me = roxeonull()
+me.about()
 
 <!---
 roxeonull/roxeonull is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
