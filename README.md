@@ -5,7 +5,7 @@ class roxeonull ( ReadMe ) :
         self.username  = "roxeonull"
         self.location  = "Indonesia"
         self.discord   = "roxeonull#1628"
-        self.languages = [ "PHP", "Kotlin", "Javascript", "C#", "Java" ]
+        self.languages = [ "PHP", "Python", "Javascript", "C#", "Java" ]
     def about ( self ) :
         print( f"Hi, I'm {self.username}. Contact me at {self.discord}" )
 me = roxeonull()
